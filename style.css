@@ -1,0 +1,30 @@
+.carousel-item {
+    list-style: none;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border: 1px red solid;
+}
+
+
+.carousel-list {
+    position: relative;
+    display: flex;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.carousel-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carousel-body {
+    margin: 0 auto;
+    width: 306px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
